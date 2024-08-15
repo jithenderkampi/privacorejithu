@@ -1,0 +1,226 @@
+@media screen and (max-width: 1199px){
+    .container{
+        width: 980px;
+    }
+    .main-left {
+        width: 650px;
+        padding-left: 10px;
+    }
+    .main-right {
+        width: 300px;
+        padding-right: 10px;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .navigation {
+        padding-right: 10px;
+    }
+    .bottom {
+        padding: 0 10px;
+    }
+    .footer-inner{
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 979px){
+    .container{
+        width: 768px;
+    }
+    .main-left {
+        width: 500px;
+        padding-left: 10px;
+    }
+    .main-right {
+        width: 240px;
+        padding-right: 10px;
+    }
+    nav ul li {
+        padding-right: 30px;
+    }
+    .content-one h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .content-one .pinner{
+        line-height: 25px;
+        font-family: 'Open Sans';
+    }
+    .content-two h2 {
+        font-size: 22px;
+    }
+    .content-two-center .twoinner {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .content-three h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .content-three p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .content-four h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .content-four p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 20px;
+    }
+    .content-five-list ul li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .content-five-list1 ol li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .content-six h6 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .content-six p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .content-seven-inner h3 a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .content-seven-inner p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bottom1 img {
+        width: 100%;
+    }
+    .bottom1 {
+        padding-right: 40px;
+    }
+    .bottom1 p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .bottom2 {
+        padding-right: 40px;
+    }
+    .bottom3 h6 {
+        font-size: 15px;
+        line-height: 15px;
+        padding-bottom: 30px;
+    }
+    .bottom3 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 767px){
+    .container{
+        width: 96%;
+    }
+    .main-left {
+        width: 100%;
+    }
+    .main-right {
+        width: 100%;
+    }
+    .header-inner{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .bottom{
+        flex-wrap: wrap;
+    }
+    .logo {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .navigation .img {
+        text-align: center;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        padding-right: unset;
+    }
+    .navigation {
+        padding: 0px 0 50px;
+    }
+    .content-one h1 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .main-left {
+        padding: 0 10px;
+    }
+    .content-two-center {
+        border: 2px solid #e9eef1;
+        text-align: center;
+        margin: 20px 0 20px;
+        padding: 15px 15px;
+    }
+    .content-one .pinner {
+        padding: 20px 0;
+    }
+    .content-three p {
+        padding: 20px 0 30px;
+    }
+    .content-four-inner {
+        flex-wrap: wrap;
+    }
+    .content-four-inner1, .content-four-inner2 {
+        width: unset;
+    }
+    .content-five {
+        flex-wrap: wrap;
+    }
+    .content-five-list, .content-five-list1{
+        width: unset;
+    }
+    .iconimg, .sixinner{
+        width: unset;
+    }
+    .content-six-inner{
+        flex-wrap: wrap;
+    }
+    .content-seven-inner img {
+        padding-right: unset;
+    }
+    .content-seven-center{
+        flex-wrap: wrap;
+    }
+    .content-six-inner img {
+        padding-right: unset;
+    }
+    .content-seven-inner p{
+        padding-bottom: 10px;
+    }
+    .main-right {
+        padding-right: unset;
+        padding: 0 10px;
+    }
+    .bottom1, .bottom2, .bottom3 {
+        padding-right: unset;
+    }
+    .bottom2 form input{
+        width: 100%;
+    }
+    .bottom2 h4{
+        padding-top: 30px;
+    }
+    .footer-inner{
+        flex-wrap: wrap;
+    }
+    .footer-inner-content p{
+        padding: 25px 0 10px;
+    }
+    .footer-inner-content1 p{
+        padding: 25px 0;
+    }
+}
